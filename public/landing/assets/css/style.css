@@ -1,0 +1,632 @@
+body{
+    font-family: "Poppins", "Anton", sans-serif !important;
+    background: rgb(91,103,254);
+    background: linear-gradient(0deg, rgba(91,103,254,1) 35%, rgba(0,212,255,1) 100%);
+    font-weight: 400 !important;
+}
+
+html{
+    scroll-behavior: smooth !important;
+}
+
+.fw-100{
+    font-weight: 100 !important;
+}
+.fw-200{
+    font-weight: 200 !important;
+}
+
+textarea:focus, input:focus{
+    /* outline: none !important;
+    outline: none !important;
+    border: none !important; */
+    /* border-color: none !important; */
+    box-shadow: none !important;
+    font-weight: normal !important;
+}
+
+
+.ff-anton{
+    font-family: "Anton", sans-serif !important;
+}
+
+.ff-poppins{
+    font-family: "Poppins", sans-serif !important;;
+}
+
+.color-secondary{
+    color: #5B67FE !important;
+}
+.bg-color-secondary{
+    background-color: #5B67FE !important;
+}
+.color-primary{
+    color: #13BFFE !important;
+}
+.bg-color-primary{
+    background-color: #13BFFE !important;
+}
+
+.p-remove {
+    padding: 0px !important;
+}
+
+.m-remove{
+    margin: 0px !important;
+}
+
+.m-auto{
+    margin: auto !important;
+}
+.d-inline-block{
+    display: inline-block !important;
+}
+
+.yellow{
+    color: #E8A50F !important;
+}
+
+.bg-light-me{
+    background-color: #106483 !important;
+    color: white !important;
+}
+.bg-secondary-light{
+    background-color: #134456 !important;
+    color: white !important;
+}
+.light{
+    color: #106483 !important;
+}
+.secondary-light{
+    color: #134456 !important;
+}
+
+
+.border-1{
+    border-width: 1px !important;
+}
+.border-2{
+    border-width: 2px !important;
+}
+.border-3{
+    border-width: 3px !important;
+}
+.border-4{
+    border-width: 4px !important;
+}
+
+.border-light{
+    border-color: #106483 !important;;
+}
+.border-yellow{
+    border-color: #E8A50F !important;;
+}
+.border-secondary-light{
+    border-color: #134456 !important;;
+}
+
+.border-none{
+    border: none !important;
+}
+.bg-yellow{
+    background-color: #E8A50F !important;
+    color: white !important;
+}
+
+.text-14{
+    font-size: 14px !important;
+}
+
+.text-16{
+    font-size: 16px !important;
+}
+
+.text-20{
+    font-size: 20px !important;
+}
+.text-24{
+    font-size: 24px !important;
+}
+.text-36{
+    font-size: 36px !important;
+}
+.text-48{
+    font-size: 48px !important;
+}
+.text-64{
+    font-size: 64px !important;
+}
+
+.r-5{
+    border-radius: 5px !important;
+}
+.r-8{
+    border-radius: 8px !important;
+}
+.r-10{
+    border-radius: 10px !important;
+}
+.r-100{
+    border-radius: 100px !important;
+}
+
+.btn{
+    border-radius: 8px !important;
+}
+
+.pt-10{
+    padding-top: 10px !important;
+}
+.pt-20{
+    padding-top: 20px !important;
+}
+.pt-30{
+    padding-top: 30px !important;
+}
+.pt-50{
+    padding-top: 50px !important;
+}
+.pt-80{
+    padding-top: 80px !important;
+}
+.mt-10{
+    margin-top: 10px !important;
+}
+.mt-20{
+    margin-top: 20px !important;
+}
+.mt-30{
+    margin-top: 30px !important;
+}
+.mt-50{
+    margin-top: 50px !important;
+}
+.mt-80{
+    margin-top: 80px !important;
+}
+
+.mx-10{
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+.mx-20{
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+.mx-30{
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+}
+.mx-50{
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+}
+.mx-80{
+    margin-top: 80px !important;
+    margin-bottom: 80px !important;
+}
+.my-10{
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+.my-20{
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+}
+.my-30{
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+}
+.my-50{
+    margin-left: 50px !important;
+    margin-right: 50px !important;
+}
+.my-80{
+    margin-left: 80px !important;
+    margin-right: 80px !important;
+}
+
+.card{
+    border-radius: 20px !important;
+    background-color: transparent !important;
+}
+
+.px-2{
+    padding-left: 2% !important;
+    padding-right: 2% !important;
+}
+.px-3{
+    padding-left: 3% !important;
+    padding-right: 3% !important;
+}
+.px-4{
+    padding-left: 4% !important;
+    padding-right: 4% !important;
+}
+.px-5{
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+}
+.px-10{
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+}
+.px-15{
+    padding-left: 15% !important;
+    padding-right: 15% !important;
+}
+.py-2{
+    padding-top: 2% !important;
+    padding-bottom: 2% !important;
+}
+.py-3{
+    padding-top: 3% !important;
+    padding-bottom: 3% !important;
+}
+.py-4{
+    padding-top: 4% !important;
+    padding-bottom: 4% !important;
+}
+.py-5{
+    padding-top: 5% !important;
+    padding-bottom: 5% !important;
+}
+.py-10{
+    padding-top: 10% !important;
+    padding-bottom: 10% !important;
+}
+.py-15{
+    padding-top: 15% !important;
+    padding-bottom: 15% !important;
+}
+
+
+
+.mx-5{
+    margin-top: 5% !important;
+    margin-bottom: 5% !important;
+}
+.mx-10{
+    margin-top: 10% !important;
+    margin-bottom: 10% !important;
+}
+.mx-15{
+    margin-top: 15% !important;
+    margin-bottom: 15% !important;
+}
+
+.metroverse-content{
+    background: linear-gradient(10deg, rgba(91,103,254,1) 35%, rgba(0,212,255,1) 100%);
+    border-radius: 10px !important;
+}
+
+.header{
+    display: flex;
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+    height: 650px !important;
+}
+
+
+.customer-get-header{
+    background-image: url('../asset-1.png');
+    background-repeat: no-repeat !important;
+    background-size: contain;
+}
+
+.card-for-you{
+    border: none !important;
+    box-shadow: 5px 5px 80px #dcdcdc;
+}
+
+.box-shadow{
+    box-shadow: 5px 5px 80px #dcdcdc;
+}
+
+.card-experience{
+    border: none !important;
+    box-shadow: 5px 5px 80px #dcdcdc;
+}
+
+.circle{
+    background-color: #106483;
+    color: white !important;
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 100% !important;
+    align-items: center !important;
+    display: flex !important;
+    text-align: center !important;
+    margin: auto !important;
+
+}
+
+.card{
+    border: none !important;
+}
+
+.card-contact{
+    background-color: white !important;
+}
+
+.card-prosess{
+    background-color: white !important;
+    /* background-image: url('../img/idea-icon.png');
+    background-repeat: no-repeat;
+    background-size: cover !important; */
+    border-radius: 10px !important;
+    width: 100px !important;
+    height: 100px !important;
+    display: flex !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    
+}
+
+.card-prosess img{
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 50% !important;
+    height: 50% !important;
+    margin: auto !important;
+}
+.card-service-icon{
+    background-color: white !important;
+    box-shadow: 5px 5px 80px #dcdcdc;
+    border-radius: 10px !important;
+    width: 100px !important;
+    height: 100px !important;
+    display: flex !important;
+    
+}
+
+.card-service-icon img{
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 50% !important;
+    height: 50% !important;
+    margin: auto !important;
+}
+
+.circle .content-center {
+    vertical-align:middle !important;
+	text-align:center !important;
+    margin: auto !important;
+    padding: auto !important;
+}
+
+ul.whatismetroverse-partner-list li::before {
+    content: ">";
+    font-weight: bold;
+    display: inline-block;
+    width: 15px;
+  }
+
+.list-group-item{
+    padding-left: 0px !important;
+    border: none !important;
+    background-color: transparent !important;
+    
+}
+
+.banner-metroverse{
+    width: 70% !important;
+}
+
+.social-list{
+    float: right !important;
+    list-style: none !important;
+    margin: 0px !important;
+}
+.social-list *{
+   padding: 0 10px 0 10px !important;
+}
+
+.list-group-item-footer{
+    line-height: 20px !important;
+}
+
+.animation-element.in-view-animate{
+    transform: translateY(0px);
+    opacity: 1 !important;
+}
+.animation-element{
+    position: relative !important;
+    transform: translateY(150px);
+    opacity: 0 !important;
+    transition: all 2s ease;
+}
+
+
+
+
+/* .animation-element {
+    position: relative;
+    width: 0%;
+    margin: 0% 1.33 2.66% 1.33%;
+    float: left;
+  }
+  
+  .animation-element:nth-of-type(3n-2) {
+    width: 0%;
+    margin: 0% 1.375% 2.75% 0%;
+    clear: left;
+  }
+  
+  .animation-element:nth-of-type(3n-1) {
+    width: 0%;
+    margin: 0% 1.375% 2.75% 1.375%;
+  }
+  
+  .animation-element:nth-of-type(3n-0) {
+    width: 0%;
+    margin: 0% 0% 2.75% 1.375%;
+    clear: right;
+  }
+  
+  .bounce-up .subject {
+    opacity: 0;
+    -moz-transition: all 700ms ease-out;
+    -webkit-transition: all 700ms ease-out;
+    -o-transition: all 700ms ease-out;
+    transition: all 700ms ease-out;
+    -moz-transform: translate3d(0px, 200px, 0px);
+    -webkit-transform: translate3d(0px, 200px, 0px);
+    -o-transform: translate(0px, 200px);
+    -ms-transform: translate(0px, 200px);
+    transform: translate3d(0px, 200, 0px);
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .bounce-up.in-view .subject {
+    opacity: 1;
+    -moz-transform: translate3d(0px, 0px, 0px);
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -o-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
+  }
+  
+  .subject {
+    float: left;
+    width: 100%;
+    margin: 0% 1.33% 2.66% 1.33%;
+    background: #F5F5F5;
+    padding: 15px;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+    border: solid 1px #EAEAEA;
+  } */
+
+@media only screen and (min-width: 992px) {
+    .vertical-center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    .dropdown-menu {
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(20%);
+        transition: all .5s;
+    }
+    .dropdown:hover .dropdown-menu{
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0%);
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+    
+    .header{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        padding-top: 90px !important;
+        text-align: center !important;
+        height: 650px !important;
+    }
+
+    .about-content-text{
+        text-align: center !important;
+        margin-top: 50px !important;
+    }
+
+    .contact-us-footer{
+        justify-content: start !important;
+    }
+    .contact-us-Feedback{
+        justify-content: start !important;
+    }
+    .our-service-footer{
+        justify-content: start !important;
+    }
+    .explore-footer{
+        justify-content: start !important;
+    }
+
+    .list-group-item-footer{
+        font-size: 12px !important;
+    }
+
+    .footer-left-logo{
+        width: 100% !important;
+    }
+    .footer-right-text{
+        display: none !important;
+        width: 100% !important;
+        text-align: center !important;
+        
+    }
+
+    .nav-item{
+        margin-left: 0px !important;
+    }
+
+    .whatismetroverse{
+        padding-top: 50px !important;
+    }
+
+    .footer-right-text ul{
+        padding: 0px !important;
+        float: left !important;
+    }
+
+    .card-contact{
+        padding: 1px !important;
+    }
+
+    #our-service{
+        padding: 0px 10px 0px 10px !important;
+    }
+
+    .foryou-content-text{
+        margin-top: 70px !important;
+    }
+    .foryou-content-text-title{
+        text-align: center !important;
+    }
+
+    iframe{
+        width: 100% !important;
+    }
+
+    .g-recaptcha > div{
+        width: 100% !important;
+    }
+    
+   .vertical-center {
+        margin: 0;
+        position: relative;
+        top: 30%;
+    }
+    
+
+   .card-text{
+    font-size: 12px !important;
+   }
+
+   .text-16{
+        font-size: 12px !important;
+    }
+    .text-24{
+        font-size: 16px !important;
+    }
+    .text-36{
+        font-size: 24px !important;
+    }
+    .text-48{
+        font-size: 32px !important;
+    }
+    .text-64{
+        font-size: 36px !important;
+    }
+    
+}
